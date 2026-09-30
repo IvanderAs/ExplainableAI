@@ -1,5 +1,4 @@
-Robustness and Reliability of Interpretable Machine Learning for Anti-Money Laundering (AML) Systems
-A dual-perspective Explainable Artificial Intelligence (XAI) framework designed for financial technology and banking security. This repository implements an end-to-end pipeline that combines synthetic data balancing with global and local interpretability models to resolve the black-box transparency crisis in automated Anti-Money Laundering (AML) and fraud detection systems[cite: 2].
+Integrating Global and Local Explainable Artificial Intelligence for Enhancing Transparency in Financial FraudA dual-perspective Explainable Artificial Intelligence (XAI) framework designed for financial technology and banking security. This repository implements an end-to-end pipeline that combines synthetic data balancing with global and local interpretability models to resolve the black-box transparency crisis in automated Anti-Money Laundering (AML) and fraud detection systems[cite: 2].
 
 Overview
 Automated fraud detection systems often utilize complex machine learning models that excel at predictive accuracy but lack transparency[cite: 2]. In modern financial compliance, a high true-positive rate is insufficient if security analysts and auditors cannot audit why a specific transaction was flagged[cite: 2].
