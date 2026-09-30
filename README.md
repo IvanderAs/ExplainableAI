@@ -8,23 +8,6 @@ Class Imbalance Handling: Utilizes SMOTE (Synthetic Minority Over-sampling Techn
 Local Diagnostics: Employs LIME (Local Interpretable Model-agnostic Explanations) for real-time, transaction-level feature attribution, giving analysts instant visibility into high-risk indicators[cite: 2].
 Global Validation: Integrates SHAP (SHapley Additive exPlanations) to validate overall model behavior across the dataset, ensuring alignment with regulatory compliance and policy standards[cite: 2].
 
-[ Financial Data ]
-          │
-          ▼
-   [ Preprocessing ]  ──► (SMOTE Imbalance Correction)
-          │
-          ▼
-   [ ML Fraud Model ]
-          │
-   ┌──────┴──────────────────────────┐
-   │                                 │
-   ▼                                 ▼
-[ LIME Explainer ]           [ SHAP Explainer ]
- (Transaction Level)           (Global Policy)
-   │                                 │
-   ▼                                 ▼
- Real-time Analyst Alerts     Regulatory Audit Trail
-
 Key Features
 Dual-Perspective Interpretability:
 
